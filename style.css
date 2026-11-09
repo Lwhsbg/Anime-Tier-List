@@ -3,4 +3,44 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
+    color:black;
+    text-align: center;
+}
+h1 {
+    font-size:36px;
+    margin-bottom:10px;
+}
+.intro {
+    margin-bottom: 30px;
+}
+.tier {
+    display: flex;
+    width: 80%;
+    margin: 0 auto 6px auto;
+    background-color: #2a2a2a;
+    border: 1px solid #444444; 
+}
+.label {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c2c2a;
+}
+.s { background-color: #f09595; }
+.a { background-color: #f0997b; }
+.b { background-color: #fac775; }
+.c { background-color: #c0dd97; }
+.d { background-color: #9fe1cb; }
+.e { background-color: #85b7eb; }
+.f { background-color: #afa9ec; }
+
+.drop-zone {
+    flex: 1;
+    min-height:75px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }

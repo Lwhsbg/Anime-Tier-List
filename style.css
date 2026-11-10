@@ -36,6 +36,10 @@ h1 {
 .d { background-color: #9fe1cb; }
 .e { background-color: #85b7eb; }
 .f { background-color: #afa9ec; }
+.not-watched {
+    background-color: red;
+    font-size: 14px; 
+}
 
 .drop-zone {
     flex: 1;
@@ -52,7 +56,7 @@ h1 {
 }
 img {
     width: 90px;
-    height:120px;
+    height:81px;
     object-fit: cover;
     margin: 3px;
     cursor: grab;
